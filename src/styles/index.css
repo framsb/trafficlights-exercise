@@ -10,3 +10,63 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+html,
+body {
+    background-color: rgb(219, 250, 245);
+    margin: 0% 30px;
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+}
+
+#box {
+    background: black;
+    width: 150px;
+    height: 370px;
+    border-radius: 50px;
+}
+
+#line {
+    background: black;
+    width: 40px;
+    height: 80px;
+    margin: auto;
+}
+
+.red {
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.yellow {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.green {
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.lightred{
+    box-shadow: 0 0 30px red;
+}
+
+.lightyellow{
+    box-shadow: 0 0 30px yellow;
+}
+
+.lightgreen{
+    box-shadow: 0 0 30px green;
+}
